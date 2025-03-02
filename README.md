@@ -1,6 +1,6 @@
 # Spring Boot 3 Basic Auth Api
 
-Last updated: 28-02-2025
+Last updated: 02-03-2025
 
 - Spring Boot 3 REST API with Basic Authentication
 
