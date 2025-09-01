@@ -26,11 +26,11 @@ public class UserController {
     private  AuthenticationManager authenticationManager;
     
    
-   // Public Access
+   // Public Access - Take a look in SecurityConfig.java
    @GetMapping("/hello")
    public String hello() {
    try {
-       return "Hello from a public endpoint...";
+       return "01-09-2025 - Hello from a public endpoint...";
    } catch (Exception e){
        throw new RuntimeException(e);
    }
@@ -81,7 +81,7 @@ public class UserController {
         }
     }
        
-    // It is protected by Auth
+    // It is protected by Auth - Take a look in SecurityConfig.java
     @GetMapping("/ping")
     public String ping() {
     try {
